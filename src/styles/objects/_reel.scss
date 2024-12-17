@@ -3,7 +3,7 @@
 @layer layout {
   .o-rl {
     display: flex;
-    gap: var(--rel-gtt, setting.f-get-space(m));
+    gap: var(--rl-gtt, setting.f-get-space(m));
     padding-bottom: setting.f-get-space(s);
     overflow: auto hidden;
 

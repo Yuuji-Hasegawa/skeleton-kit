@@ -3,6 +3,7 @@
 
 $readableLength: 40em;
 $readableLengthEn: 70em;
+$menuWidth: 240px;
 $ratio: math.div((1 + sqrt(5)), 2);
 $silver-ratio: math.sqrt(2);
 $spacePx: 8px;
@@ -38,17 +39,17 @@ $borderRadius: (
   s: f-get-space(xs),
   m: f-get-space(s),
   l: f-get-space(m),
-	r: 50%,
+  r: 50%,
 ) !default;
 
 $breakxs: 481px;
 $breaks: 641px;
 $breakm: 961px;
 $breakpoints: (
-	underxs: calc((($breakxs - 1px) - 100vw) * 999),
+  underxs: calc((($breakxs - 1px) - 100vw) * 999),
   unders: calc((($breaks - 1px) - 100vw) * 999),
   underm: calc((($breakm - 1px) - 100vw) * 999),
-	overxs: calc((100vw - ($breakxs - 1px)) * 999),
+  overxs: calc((100vw - ($breakxs - 1px)) * 999),
   overs: calc((100vw - ($breaks - 1px)) * 999),
   overm: calc((100vw - ($breakm - 1px)) * 999),
 ) !default;
@@ -62,15 +63,15 @@ $aspect: (
   ym: '3/4',
   yl: '9/16',
   ppr: $silver-ratio + '/1',
-	yppr: '1/' + $silver-ratio,
+  yppr: '1/' + $silver-ratio,
   brz: math.sqrt(3) + '/1',
-	ybrz: '1/' + math.sqrt(3),
-	xbnr: '8/1',
-	ybnr: '1/2',
-	//mbnr: '2/3', /* mobile bnr */
-	fbnr: '39/5',
-	hbnr: '39/10',
-	//lbnr: '8/1', /* leader board bnr */
+  ybrz: '1/' + math.sqrt(3),
+  xbnr: '8/1',
+  ybnr: '1/2',
+  //mbnr: '2/3', /* mobile bnr */
+  fbnr: '39/5',
+  hbnr: '39/10',
+  //lbnr: '8/1', /* leader board bnr */
   rbnr: '6/5',
   wsbnr: '4/15',
 ) !default;

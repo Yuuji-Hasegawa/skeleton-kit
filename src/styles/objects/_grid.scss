@@ -13,7 +13,11 @@
     grid-template-columns: repeat(
       auto-fill,
       minmax(
-        clamp((50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5), map.get(setting.$breakpoints, underm), 100%),
+        clamp(
+          (50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5),
+          map.get(setting.$breakpoints, underm),
+          100%
+        ),
         1fr
       )
     );
@@ -30,7 +34,11 @@
             (50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5)
           ),
           map.get(setting.$breakpoints, underm),
-          clamp((50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5), map.get(setting.$breakpoints, unders), 100%)
+          clamp(
+            (50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5),
+            map.get(setting.$breakpoints, unders),
+            100%
+          )
         ),
         1fr
       )
@@ -48,7 +56,11 @@
             (50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5)
           ),
           map.get(setting.$breakpoints, underm),
-          clamp((50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5), map.get(setting.$breakpoints, unders), 100%)
+          clamp(
+            (50% - var(--grd-gtt, setting.f-get-space(l)) * 0.5),
+            map.get(setting.$breakpoints, unders),
+            100%
+          )
         ),
         1fr
       )

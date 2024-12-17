@@ -14,6 +14,9 @@ module.exports = {
     'selector-class-pattern': null,
     'selector-id-pattern': null,
     'no-descending-specificity': null,
+    'no-empty-source': null,
+    'block-no-empty': null,
+    'no-duplicate-selectors': null,
     'media-feature-name-no-unknown': [
       true,
       {

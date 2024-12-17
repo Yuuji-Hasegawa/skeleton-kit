@@ -3,11 +3,11 @@ import path from 'path'
 import sharp from 'sharp'
 
 const settings = [48, 72, 96, 144, 180, 192, 256, 384]
-const target = path.join(process.cwd() + '/public/pwa/icons/icon.png');
+const target = path.join(process.cwd() + '/public/pwa/icons/icon.png')
 const dir = path.parse(target).dir
 const filename = path.parse(target).name
 
-const cacheDir = path.join(process.cwd() + '/cache');
+const cacheDir = path.join(process.cwd() + '/cache')
 const cacheFile = path.join(cacheDir, '.iconcache')
 
 if (!fs.existsSync(target)) {

@@ -66,12 +66,13 @@ $font-family:
  * http://scripts.sil.org/OFL
  * I've converted my Roboto Flex font(https://fonts.google.com/specimen/Roboto+Flex) from ttf to woff2. */
 
- @font-face {
+@font-face {
   font-family: 'Roboto Flex';
   font-weight: 100 700;
   font-display: optional;
   src: url('/fonts/RobotoFlex-VariableFont.woff2') format('woff2-variations');
-  unicode-range: U+0000-00FF, U+02BB-02BC, U+2000-206F, U+20AC, U+2212, U+2215, U+FEFF;
+  unicode-range: U+0000-00FF, U+02BB-02BC, U+2000-206F, U+20AC, U+2212, U+2215,
+    U+FEFF;
 }
 
 $font-family-en: 'Roboto Flex', sans-serif;

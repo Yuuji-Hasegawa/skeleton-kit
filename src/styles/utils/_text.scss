@@ -2,28 +2,28 @@
 @use 'sass:map';
 
 @layer utilities {
-	$align-keys: (
+  $align-keys: (
     l: left,
     r: right,
     ctr: center,
   ) !default;
 
-	@each $key, $name in setting.$lineHeight {
+  @each $key, $name in setting.$lineHeight {
     $is_target: if($key != m, true, false);
     @if $is_target {
       .u-lnh-#{$key} {
-				line-height: map.get(setting.$lineHeight, $key);
-			}
+        line-height: map.get(setting.$lineHeight, $key);
+      }
     }
   }
 
-	@each $prefix, $target in $align-keys {
+  @each $prefix, $target in $align-keys {
     .u-txt-#{$prefix} {
       text-align: $target;
     }
   }
 
-	@each $key, $name in setting.$fontWeight {
+  @each $key, $name in setting.$fontWeight {
     @if $key != 'r' {
       .u-fnt-w#{$key} {
         font-weight: #{$name};
@@ -31,17 +31,16 @@
     }
   }
 
-	.u-fnt-en {
+  .u-fnt-en {
     font-family: setting.$font-family-en;
   }
 
-	.u-txt-trim {
+  .u-txt-trim {
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: var(--trm-cnt, 1);
   }
-
 }
 
 @layer theme {
@@ -53,11 +52,39 @@
     --trm-cnt: 3;
   }
 
-	.u-txt-underline {
-		text-decoration: underline;
-		text-decoration-thickness: 0.5em;
-		//text-decoration-color: rgba(map.get(setting.$pallete01, pink), 0.4);
-		text-underline-offset: -0.2em;
-		text-decoration-skip-ink: none;
-	}
+  .u-txt-trim--4 {
+    --trm-cnt: 4;
+  }
+
+  .u-txt-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5em;
+    text-decoration-color: color-mix(
+      in oklab,
+      var(--c-accent-middle),
+      transparent 60%
+    );
+    text-underline-offset: -0.2em;
+    text-decoration-skip-ink: none;
+  }
+
+  .u-txt-dim {
+    color: var(--c-txt-desc);
+  }
+
+  .u-txt-err {
+    color: var(--c-status-error);
+  }
+
+  .u-txt-suc {
+    color: var(--c-status-success);
+  }
+
+  .u-txt-war {
+    color: var(--c-status-warning);
+  }
+
+  .u-txt-inf {
+    color: var(--c-status-info);
+  }
 }

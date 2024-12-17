@@ -17,7 +17,7 @@
     overflow-wrap: break-word;
   }
 
-	:root {
+  :root {
     @each $key, $name in setting.$spaceScale {
       $is_target: if($key != auto, true, false);
       @if $is_target {
@@ -33,9 +33,17 @@
 
     & {
       --s-clamp: clamp(
-        clamp(#{setting.f-get-space(m)}, #{map.get(setting.$breakpoints, overm)}, #{setting.f-get-space(xl)}),
+        clamp(
+          #{setting.f-get-space(m)},
+          #{map.get(setting.$breakpoints, overm)},
+          #{setting.f-get-space(xl)}
+        ),
         #{map.get(setting.$breakpoints, overs)},
-        clamp(#{setting.f-get-space(xl)}, #{map.get(setting.$breakpoints, overm)}, #{setting.f-get-space(3xl)})
+        clamp(
+          #{setting.f-get-space(xl)},
+          #{map.get(setting.$breakpoints, overm)},
+          #{setting.f-get-space(3xl)}
+        )
       );
       --s-reading: #{setting.$readableLength};
     }
@@ -45,22 +53,20 @@
         --f-#{$key}: #{setting.f-font-size($key)};
       }
     }
-	}
+  }
 
-	html {
+  html {
     scroll-behavior: smooth;
   }
 
   body {
-		min-height: 100svh;
+    min-height: 100svh;
     font-family: setting.$font-family;
     font-size: var(--f-m, 1rem);
     font-weight: map.get(setting.$fontWeight, r);
     font-feature-settings: 'palt';
     font-optical-sizing: auto;
     line-height: map.get(setting.$lineHeight, m);
-    //color: setting.$myBlack;
-    //background-color: setting.$myBrand;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-size-adjust: 100%;
@@ -79,7 +85,8 @@
   a,
   button {
     cursor: pointer;
-    transition: var(--trn, all) var(--drt, 0.3s) var(--tmn, ease-in-out) var(--dly, 0s);
+    transition: var(--trn, all) var(--drt, 0.3s) var(--tmn, ease-in-out)
+      var(--dly, 0s);
 
     & * {
       transition: inherit;
@@ -122,29 +129,37 @@
 
 @layer theme {
   :root {
-		@each $key, $name in setting.$semantic-light {
-			--c-#{$key}: #{($name)};
-		}
+    @each $key, $name in setting.$semantic-light {
+      --c-#{$key}: #{($name)};
+    }
 
-		@each $key, $values in setting.$shadows {
-			$value-string: "";
-			@each $value in $values {
-				$value-string: if($value-string == "", #{$value}, $value-string + ", " + #{$value});
-			}
-			--c-shadow-#{$key}: #{$value-string};
-		}
+    @each $key, $values in setting.$shadows {
+      $value-string: '';
+      @each $value in $values {
+        $value-string: if(
+          $value-string == '',
+          #{$value},
+          $value-string + ', ' + #{$value}
+        );
+      }
 
-		--c-scrim-adujust: #{rgba(map.get(setting.$sys-light, scrim), setting.$scrim-ratio)};
+      --c-shadow-#{$key}: #{$value-string};
+    }
 
-		@include tool.darkmode {
-			@each $key, $name in setting.$semantic-dark {
-				--c-#{$key}: #{($name)};
-			}
-		}
-	}
+    --c-scrim-adujust: #{rgba(
+        map.get(setting.$sys-light, scrim),
+        setting.$scrim-ratio
+      )};
 
-	body {
-		color: var(--c-txt, #333);
-		background: var(--c-bg, #fff);
-	}
+    @include tool.darkmode {
+      @each $key, $name in setting.$semantic-dark {
+        --c-#{$key}: #{($name)};
+      }
+    }
+  }
+
+  body {
+    color: var(--c-txt, #333);
+    background: var(--c-bg, #fff);
+  }
 }

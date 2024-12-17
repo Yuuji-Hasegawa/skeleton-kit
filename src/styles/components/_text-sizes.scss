@@ -34,38 +34,66 @@
   }
 
   .c-h-2xl {
-    font-size: clamp(setting.f-font-size(5xl), (map.get(setting.$breakpoints, overs)), setting.f-font-size(6xl));
+    font-size: clamp(
+      setting.f-font-size(5xl),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(6xl)
+    );
   }
 
   .c-h-xl {
-    font-size: clamp(setting.f-font-size(4xl), (map.get(setting.$breakpoints, overs)), setting.f-font-size(5xl));
+    font-size: clamp(
+      setting.f-font-size(4xl),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(5xl)
+    );
   }
 
   .c-h1,
   .c-h1-ext {
-    font-size: clamp(setting.f-font-size(3xl), (map.get(setting.$breakpoints, overs)), setting.f-font-size(4xl));
+    font-size: clamp(
+      setting.f-font-size(3xl),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(4xl)
+    );
   }
 
   .c-h2,
   .c-h2-ext,
   .c-entry h2 {
-    font-size: clamp(setting.f-font-size(2xl), (map.get(setting.$breakpoints, overs)), setting.f-font-size(3xl));
+    font-size: clamp(
+      setting.f-font-size(2xl),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(3xl)
+    );
   }
 
   .c-h3,
   .c-h3-ext,
   .c-entry h3 {
-    font-size: clamp(setting.f-font-size(xl), (map.get(setting.$breakpoints, overs)), setting.f-font-size(2xl));
+    font-size: clamp(
+      setting.f-font-size(xl),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(2xl)
+    );
   }
 
   .c-h4,
   .c-h4-ext {
-    font-size: clamp(setting.f-font-size(l), (map.get(setting.$breakpoints, overs)), setting.f-font-size(xl));
+    font-size: clamp(
+      setting.f-font-size(l),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(xl)
+    );
   }
 
   .c-h5,
   .c-h5-ext {
-    font-size: clamp(setting.f-font-size(m), (map.get(setting.$breakpoints, overs)), setting.f-font-size(l));
+    font-size: clamp(
+      setting.f-font-size(m),
+      (map.get(setting.$breakpoints, overs)),
+      setting.f-font-size(l)
+    );
     @include tool.max-screen(setting.$breaks - 1px) {
       line-height: map.get(setting.$lineHeight, l);
     }
