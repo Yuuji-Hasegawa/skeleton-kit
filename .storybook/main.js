@@ -18,7 +18,7 @@ const config = {
 	},
 	async viteFinal(config) {
     return mergeConfig(config, {
-      base: '/skeleton-kit/',
+      base: '/skeleton-kit/docs/',
     })
   },
 }
