@@ -1,0 +1,3 @@
+/*! Roboto Flex is licensed under the SIL Open Font License, Version 1.1.
+ * http://scripts.sil.org/OFL
+ * I've converted my Roboto Flex font(https://fonts.google.com/specimen/Roboto+Flex) from ttf to woff2. */@font-face{font-weight:100 700;src:url(/fonts/RobotoFlex-VariableFont.woff2) format("woff2-variations");font-family:Roboto Flex;font-display:optional;unicode-range:U+0000-00FF,U+02BB-02BC,U+2000-206F,U+20AC,U+2212,U+2215,U+FEFF}@layer layout{.c-bc-item:not(:last-of-type):after{display:inline-flex;margin-left:8px;border-width:1px 1px 0 0;border-style:solid;width:8px;height:8px;content:"";-webkit-transform:rotate(45deg) translate(-1px,-1px);transform:rotate(45deg) translate(-1px,-1px)}}@layer theme{.c-bc-item:not(:last-of-type):after{border-color:var(--c-brd)}}

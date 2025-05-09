@@ -1,6 +1,20 @@
 /** @type { import('@storybook/html').Preview } */
+import { themes } from '@storybook/theming'
+
 const preview = {
-  parameters: {
+	parameters: {
+		options: {
+			storySort: {
+				order: [
+					'Getting Started',
+					'Components',
+					'Objects',
+					'Utility',
+					'Tokens',
+					'*',
+				],
+			},
+		},
     controls: {
       matchers: {
         color: /(background|color)$/i,

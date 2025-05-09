@@ -1,0 +1,1 @@
+@layer layout{.o-stc{display:flex;flex-direction:column;justify-content:flex-start}.o-stc>*{margin-top:0;margin-bottom:0}.o-stc>*+*{margin-top:var(--stc-mt, 0)}}

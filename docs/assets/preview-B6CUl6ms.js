@@ -1,0 +1,1 @@
+const t={parameters:{options:{storySort:{order:["Getting Started","Components","Objects","Utility","Tokens","*"]}},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}}};export{t as default};
