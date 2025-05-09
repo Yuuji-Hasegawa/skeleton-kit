@@ -4,6 +4,6 @@ export default create({
   base: 'light',
 
   brandTitle: '仮面ライターデザインシステム',
-  brandImage: '/img/logo-storybook.svg',
+  brandImage: './img/logo-storybook.svg',
   brandTarget: '_self',
 });

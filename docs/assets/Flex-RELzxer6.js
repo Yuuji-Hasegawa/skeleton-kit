@@ -1,4 +1,4 @@
-import{j as e,M as l}from"./index-CM3S6UCf.js";import{useMDXComponents as i}from"./index-Dg8f1RhB.js";import"./iframe-DCUXwx9l.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function c(s){const n={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...i(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(l,{title:"Utility/Flex"}),`
+import{j as e,M as l}from"./index-Bc8UxcRs.js";import{useMDXComponents as i}from"./index-DWNozKYk.js";import"./iframe-CEUZJDkD.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function c(s){const n={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...i(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(l,{title:"Utility/Flex"}),`
 `,e.jsx(n.h1,{id:"flex",children:"Flex"}),`
 `,e.jsxs(n.ul,{children:[`
 `,e.jsxs(n.li,{children:[e.jsx(n.code,{children:".u-flx-shn"}),"：",e.jsx(n.code,{children:"flex-shrink: 0"}),"を適用"]}),`

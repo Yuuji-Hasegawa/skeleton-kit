@@ -1,4 +1,4 @@
-import{j as e,M as i}from"./index-CM3S6UCf.js";import{useMDXComponents as s}from"./index-Dg8f1RhB.js";import"./iframe-DCUXwx9l.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function n(c){const d={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...s(),...c.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Utility/Spaces"}),`
+import{j as e,M as i}from"./index-Bc8UxcRs.js";import{useMDXComponents as s}from"./index-DWNozKYk.js";import"./iframe-CEUZJDkD.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function n(c){const d={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...s(),...c.components};return e.jsxs(e.Fragment,{children:[e.jsx(i,{title:"Utility/Spaces"}),`
 `,e.jsx(d.h1,{id:"spaces",children:"Spaces"}),`
 `,e.jsxs(d.p,{children:["詳細は",e.jsx(d.code,{children:"/src/styles/utils/_spaces.scss"}),"をご確認ください。"]}),`
 `,e.jsx(d.h1,{id:"margin",children:"Margin"}),`
