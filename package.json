@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "sb": "storybook dev -p 6006",
-    "sb:build": "storybook build --output-dir docs",
+    "sb:build": "storybook build",
     "lint": "run-p -l -c --aggregate-output lint:*",
     "lint:eslint": "eslint . --cache --cache-location 'cache/.eslintcache'",
     "lint:prettier": "prettier --check .",
