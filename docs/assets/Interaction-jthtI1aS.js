@@ -1,4 +1,4 @@
-import{j as n,M as s}from"./index-CG16O66v.js";import{useMDXComponents as r}from"./index-D5yZdIrZ.js";import"./iframe-BQQB_ZO7.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function i(e){const t={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...r(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(s,{title:"Utility/Interaction"}),`
+import{j as n,M as s}from"./index-Bc8UxcRs.js";import{useMDXComponents as r}from"./index-DWNozKYk.js";import"./iframe-CEUZJDkD.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function i(e){const t={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...r(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(s,{title:"Utility/Interaction"}),`
 `,n.jsx(t.h1,{id:"interaction",children:"Interaction"}),`
 `,n.jsxs(t.ul,{children:[`
 `,n.jsxs(t.li,{children:[n.jsx(t.code,{children:".u-cur-ptr"}),"：",n.jsx(t.code,{children:"cursor: pointer"}),"を適用"]}),`
