@@ -3,7 +3,7 @@
     color: var(--bx-txt-clr, currentColor);
     background-color: var(--bx-bg-clr, transparent);
     border: var(--bx-brd-w, 1px) solid var(--bx-brd-clr, currentColor);
-    outline: var(--bx-brd-w, 1px) var(--bx-otl-clr, transparent);
+    outline: var(--bx-brd-w, 1px) solid var(--bx-otl-clr, transparent);
     outline-offset: calc(var(--bx-brd-w, 1px) * -1);
   }
 }

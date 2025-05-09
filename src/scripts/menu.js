@@ -1,7 +1,7 @@
 export const menu = () => {
   const buttons = document.querySelectorAll('.c-btn--hbg')
   const menu = document.querySelector('.j-menu')
-  const menuBg = document.querySelector('.c-menu-bg')
+	const menuBg = document.querySelector('.c-menu-bg')
 
   const initNav = () => {
     buttons.forEach((button) => {

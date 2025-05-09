@@ -7,9 +7,10 @@
     cls: cls-gtt,
     sdb: sdb-gtt,
     stc: stc-mt,
+		swt: swt-gtt,
     ctr: ctr-pd,
+		grd: grd-gtt,
     rl: rl-gtt,
-    frm: frm-r,
   ) !default;
 
   @each $key, $name in setting.$spaceScale {
@@ -72,7 +73,7 @@
   }
 
   .u-space-none {
-    --custom-space: 0;
+    --custom-space: 0px;
   }
 
   @each $prefix, $target in $targets {

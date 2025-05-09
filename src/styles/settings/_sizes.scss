@@ -6,6 +6,7 @@ $readableLengthEn: 70em;
 $menuWidth: 240px;
 $ratio: math.div((1 + sqrt(5)), 2);
 $silver-ratio: math.sqrt(2);
+$bronze-ratio: math.div((3 + math.sqrt(13)), 2);
 $spacePx: 8px;
 $spaceRem: 0.5rem;
 $spaceEm: 0.5em;
@@ -64,8 +65,8 @@ $aspect: (
   yl: '9/16',
   ppr: $silver-ratio + '/1',
   yppr: '1/' + $silver-ratio,
-  brz: math.sqrt(3) + '/1',
-  ybrz: '1/' + math.sqrt(3),
+  brz: $bronze-ratio + '/1',
+  ybrz: '1/' + $bronze-ratio,
   xbnr: '8/1',
   ybnr: '1/2',
   //mbnr: '2/3', /* mobile bnr */
