@@ -1,13 +1,13 @@
-/* empty css                *//* empty css               *//* empty css                 *//* empty css               *//* empty css              *//* empty css                 *//* empty css                *//* empty css                    *//* empty css                   *//* empty css              *//* empty css                *//* empty css              */import{l as r,s as n}from"./set-int-size-DZc624IO.js";/* empty css              *//* empty css                */const l=()=>{const t=document.createElement("div");return t.className="o-sdb c-hld-bio",t.innerHTML=`<div class="c-avatar u-mx-auto">
+/* empty css                *//* empty css               *//* empty css                 *//* empty css               *//* empty css              *//* empty css                 *//* empty css                *//* empty css                    *//* empty css                   *//* empty css              *//* empty css                *//* empty css              */import{l as n,s as c}from"./set-int-size-DZc624IO.js";/* empty css              *//* empty css                */const l=()=>{const t=document.createElement("div");return t.className="o-sdb c-hld-bio",t.innerHTML=`<div class="c-avatar u-mx-auto">
           <picture class="o-frm u-asp-sq u-frm-r-r j-cnt-auto">
             <source
               type="image/avif"
               srcset="
-                /public/img/thumb-320.avif   320w,
-                /public/img/thumb-640.avif   640w,
-                /public/img/thumb-960.avif   960w,
-                /public/img/thumb-1920.avif 1920w,
-                /public/img/thumb.avif      1921w
+                ./img/thumb-320.avif   320w,
+                ./img/thumb-640.avif   640w,
+                ./img/thumb-960.avif   960w,
+                ./img/thumb-1920.avif 1920w,
+                ./img/thumb.avif      1921w
               "
               sizes="
 										(max-width: 320px) 320px,
@@ -19,11 +19,11 @@
             <source
               type="image/webp"
               srcset="
-                /public/img/thumb-320.webp   320w,
-                /public/img/thumb-640.webp   640w,
-                /public/img/thumb-960.webp   960w,
-                /public/img/thumb-1920.webp 1920w,
-                /public/img/thumb.webp      1921w
+                ./img/thumb-320.webp   320w,
+                ./img/thumb-640.webp   640w,
+                ./img/thumb-960.webp   960w,
+                ./img/thumb-1920.webp 1920w,
+                ./img/thumb.webp      1921w
               "
               sizes="
 										(max-width: 320px) 320px,
@@ -33,13 +33,13 @@
 										100vw"
             />
             <img
-              src="/public/img/thumb.png"
+              src="./img/thumb.png"
               srcset="
-                /public/img/thumb-320.png   320w,
-                /public/img/thumb-640.png   640w,
-                /public/img/thumb-960.png   960w,
-                /public/img/thumb-1920.png 1920w,
-                /public/img/thumb.png      1921w
+                ./img/thumb-320.png   320w,
+                ./img/thumb-640.png   640w,
+                ./img/thumb-960.png   960w,
+                ./img/thumb-1920.png 1920w,
+                ./img/thumb.png      1921w
               "
               sizes="
 										(max-width: 320px) 320px,
@@ -239,4 +239,4 @@
               </svg>
             </a>
           </div>
-        </div>`,r(),n(),t},y={title:"Components/Holder/Bio",tags:["autodocs"],render:()=>l()},e={};var s,o,a,i,c;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(a=(o=e.parameters)==null?void 0:o.docs)==null?void 0:a.source},description:{story:"著者情報を掲載する**Bio**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_holder.scss`をご確認ください。\n- `.c-hld-bio`:**Bio**コンポーネント\n- `.c-avatar`:**Avatar**コンポーネント\n- `.c-fld-*`:伸縮する子要素を設定するコンポーネント",...(c=(i=e.parameters)==null?void 0:i.docs)==null?void 0:c.description}}};const B=["Examples"];export{e as Examples,B as __namedExportsOrder,y as default};
+        </div>`,n(),c(),t},y={title:"Components/Holder/Bio",tags:["autodocs"],render:()=>l()},e={};var s,o,a,r,i;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(a=(o=e.parameters)==null?void 0:o.docs)==null?void 0:a.source},description:{story:"著者情報を掲載する**Bio**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_holder.scss`をご確認ください。\n- `.c-hld-bio`:**Bio**コンポーネント\n- `.c-avatar`:**Avatar**コンポーネント\n- `.c-fld-*`:伸縮する子要素を設定するコンポーネント",...(i=(r=e.parameters)==null?void 0:r.docs)==null?void 0:i.description}}};const B=["Examples"];export{e as Examples,B as __namedExportsOrder,y as default};

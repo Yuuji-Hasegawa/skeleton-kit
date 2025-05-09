@@ -1,11 +1,11 @@
-/* empty css                *//* empty css                *//* empty css                 *//* empty css               *//* empty css                 *//* empty css                    *//* empty css              *//* empty css                   *//* empty css              *//* empty css              *//* empty css                */import{l as b,s as v}from"./set-int-size-DZc624IO.js";/* empty css              */const F=()=>{const s=document.createElement("div");s.className="c-gnd";const i=document.createElement("picture");i.className="o-frm j-cnt-auto",i.innerHTML=`<source
+/* empty css                *//* empty css                *//* empty css                 *//* empty css               *//* empty css                 *//* empty css                    *//* empty css              *//* empty css                   *//* empty css              *//* empty css              *//* empty css                */import{l as b,s as v}from"./set-int-size-DZc624IO.js";/* empty css              */const F=()=>{const s=document.createElement("div");s.className="c-gnd";const r=document.createElement("picture");r.className="o-frm j-cnt-auto",r.innerHTML=`<source
           type="image/avif"
           srcset="
-            /public/img/thumb-320.avif   320w,
-            /public/img/thumb-640.avif   640w,
-            /public/img/thumb-960.avif   960w,
-            /public/img/thumb-1920.avif 1920w,
-            /public/img/thumb.avif      1921w
+            ./img/thumb-320.avif   320w,
+            ./img/thumb-640.avif   640w,
+            ./img/thumb-960.avif   960w,
+            ./img/thumb-1920.avif 1920w,
+            ./img/thumb.avif      1921w
           "
           sizes="
 								(max-width: 320px) 320px,
@@ -17,11 +17,11 @@
         <source
           type="image/webp"
           srcset="
-            /public/img/thumb-320.webp   320w,
-            /public/img/thumb-640.webp   640w,
-            /public/img/thumb-960.webp   960w,
-            /public/img/thumb-1920.webp 1920w,
-            /public/img/thumb.webp      1921w
+            ./img/thumb-320.webp   320w,
+            ./img/thumb-640.webp   640w,
+            ./img/thumb-960.webp   960w,
+            ./img/thumb-1920.webp 1920w,
+            ./img/thumb.webp      1921w
           "
           sizes="
 								(max-width: 320px) 320px,
@@ -31,13 +31,13 @@
 								100vw"
         />
         <img
-          src="/public/img/thumb.png"
+          src="./img/thumb.png"
           srcset="
-            /public/img/thumb-320.png   320w,
-            /public/img/thumb-640.png   640w,
-            /public/img/thumb-960.png   960w,
-            /public/img/thumb-1920.png 1920w,
-            /public/img/thumb.png      1921w
+            ./img/thumb-320.png   320w,
+            ./img/thumb-640.png   640w,
+            ./img/thumb-960.png   960w,
+            ./img/thumb-1920.png 1920w,
+            ./img/thumb.png      1921w
           "
           sizes="
 								(max-width: 320px) 320px,
@@ -52,7 +52,7 @@
           fetchpriority="low"
           alt=""
         />
-	`,s.appendChild(i);const c=document.createElement("footer");c.className="o-ctr u-ins-ctr u-space-none u-py-2xl";const a=document.createElement("div");a.className="o-sdb u-mb-m";const l=document.createElement("div");l.className="c-fld-fit";const p=document.createElement("ul");p.className="o-cls u-mb-m",p.innerHTML=`<li>
+	`,s.appendChild(r);const a=document.createElement("footer");a.className="o-ctr u-ins-ctr u-space-none u-py-2xl";const c=document.createElement("div");c.className="o-sdb u-mb-m";const o=document.createElement("div");o.className="c-fld-fit";const m=document.createElement("ul");m.className="o-cls u-mb-m",m.innerHTML=`<li>
                 <a
                   class="c-prg-l c-a u-fnt-en u-fnt-wm u-dsp-blc u-hit-exp"
                   href="#"
@@ -91,7 +91,7 @@
                 >
 									Inquiry
 								</a>
-              </li>`;const r=document.createElement("ul");r.className="o-cls",r.innerHTML=`<li>
+              </li>`;const i=document.createElement("ul");i.className="o-cls",i.innerHTML=`<li>
                 <a
                   class="c-prg-m c-a u-fnt-en u-fnt-wl u-dsp-blc u-py-s"
                   href="#"
@@ -114,7 +114,7 @@
                 >
 									Privacy Policy
 								</a>
-              </li>`,l.appendChild(p),l.appendChild(r);const o=document.createElement("div");o.className="c-fld-push u-ml-auto";const m=document.createElement("h3");m.className="c-h4-ext u-fnt-en u-fnt-wm",m.innerText="Follow Us";const u=document.createElement("ul");u.className="o-cls",u.innerHTML=`<li>
+              </li>`,o.appendChild(m),o.appendChild(i);const l=document.createElement("div");l.className="c-fld-push u-ml-auto";const p=document.createElement("h3");p.className="c-h4-ext u-fnt-en u-fnt-wm",p.innerText="Follow Us";const u=document.createElement("ul");u.className="o-cls",u.innerHTML=`<li>
                 <a
                   class="c-a c-h2-ext u-dsp-flx u-pd-s j-cnt-auto"
                   href="#"
@@ -204,7 +204,7 @@
 									</svg>
 									<span class="sr-only">Pinterestへ</span>
                 </a>
-              </li>`,o.appendChild(m),o.appendChild(u),a.appendChild(l),a.appendChild(o);const n=document.createElement("div");n.className="o-cls u-flx-y-ctr";const e=document.createElement("a");e.className="c-logo c-logo--ft c-h1-ext u-dsp-ifx",e.href="#",e.title="仮面ライター",e.setAttribute("aria-label","仮面ライターのトップページへ"),e.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 563">
+              </li>`,l.appendChild(p),l.appendChild(u),c.appendChild(o),c.appendChild(l);const n=document.createElement("div");n.className="o-cls u-flx-y-ctr";const e=document.createElement("a");e.className="c-logo c-logo--ft c-h1-ext u-dsp-ifx",e.href="#",e.title="仮面ライター",e.setAttribute("aria-label","仮面ライターのトップページへ"),e.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1048 563">
               <path
                 class="c-logo-fll"
                 d="M78.809 281.081C-2.016 378.968 202.286 562.159 236.36 430.153c21.27-89.488-76.642-225.835-166.017-144.844"
@@ -220,4 +220,4 @@
                 d="m934.637 444.857-17.582 30.667h114.485l16.36-30.667zm-49.884-97.315-77.962 119.395 14.175 27.804 31.348-44.841h27.26l-60.788 94.453h36.254l128.527-196.811zm14.72 33.392-26.714 41.298h23.443l26.169-41.298zm-19.763-33.392h-55.745L715.882 455.488l-19.354 56.972 82.186-73.873-41.57 105.766h34.074l48.93-127.3h-19.626zm-205.126 0-9.541 32.711h85.594l53.428-32.711zm-36.255 56.154-9.54 31.62h53.428l-77.416 109.037h39.253l107.401-140.657zm-323.021 85.321 90.5-141.475h37.618l-48.794 69.511h22.353l-49.067 127.3h-26.169l35.71-100.041-38.436 55.881zm134.796-141.475-78.37 196.811h22.353l34.074-70.874 4.634 11.449-31.893 59.425h27.259l14.72-27.532 9.268 27.532h14.175l6.801-24.601-13.889-33.188 48.522-82.868h-48.522l13.357-23.443h38.708l27.26-32.711zm-3.134 83.685-3.271 5.452 5.451 14.175 11.449-19.627zm97.451-83.685-13.629 32.711h38.163l-19.763 23.443h-39.39l-41.843 140.657h120.486l44.16-140.657h-53.701l23.988-23.443h36.255l29.168-32.711zm-17.309 83.413-24.261 84.231h8.45l23.443-84.231zm35.437 83.958 24.533-83.958h6.542l-23.443 83.958zm-5.725-84.776-2.453 8.45h8.587l3.134-8.45zm-13.902 46.886 1.908-8.996h8.996l-1.636 8.996zm-8.178 27.395-2.453 10.768h8.859l2.726-10.768z"
               />
             </svg>
-            <span class="sr-only">仮面ライターのトップページへ</span>`;const h=document.createElement("span");return h.className="c-sml-l u-fnt-en",h.innerText="©︎ kamenwriter.com",n.appendChild(e),n.appendChild(h),c.appendChild(a),c.appendChild(n),s.appendChild(c),b(),v(),s},U={title:"Components/Footer",tags:["autodocs"],render:()=>F()},t={};var d,w,g,f,x;t.parameters={...t.parameters,docs:{...(d=t.parameters)==null?void 0:d.docs,source:{originalSource:"{}",...(g=(w=t.parameters)==null?void 0:w.docs)==null?void 0:g.source},description:{story:"**Footer**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_footer.scss`をご確認ください。\n\n- `.c-gnd`:**Footer**コンポーネント\n- `.c-fld-*`:伸縮する子要素を設定するコンポーネント",...(x=(f=t.parameters)==null?void 0:f.docs)==null?void 0:x.description}}};const k=["Examples"];export{t as Examples,k as __namedExportsOrder,U as default};
+            <span class="sr-only">仮面ライターのトップページへ</span>`;const h=document.createElement("span");return h.className="c-sml-l u-fnt-en",h.innerText="©︎ kamenwriter.com",n.appendChild(e),n.appendChild(h),a.appendChild(c),a.appendChild(n),s.appendChild(a),b(),v(),s},U={title:"Components/Footer",tags:["autodocs"],render:()=>F()},t={};var d,w,g,f,x;t.parameters={...t.parameters,docs:{...(d=t.parameters)==null?void 0:d.docs,source:{originalSource:"{}",...(g=(w=t.parameters)==null?void 0:w.docs)==null?void 0:g.source},description:{story:"**Footer**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_footer.scss`をご確認ください。\n\n- `.c-gnd`:**Footer**コンポーネント\n- `.c-fld-*`:伸縮する子要素を設定するコンポーネント",...(x=(f=t.parameters)==null?void 0:f.docs)==null?void 0:x.description}}};const k=["Examples"];export{t as Examples,k as __namedExportsOrder,U as default};

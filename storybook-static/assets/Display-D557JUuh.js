@@ -1,4 +1,4 @@
-import{j as e,M as c}from"./index-B3sQ_Kn-.js";import{useMDXComponents as l}from"./index-MpO5Vujw.js";import"./iframe-C9lhEjjy.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function s(i){const n={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...l(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(c,{title:"Utility/Display"}),`
+import{j as e,M as c}from"./index-CirxEQYK.js";import{useMDXComponents as l}from"./index-BhWSBugV.js";import"./iframe-BtP4CijC.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function s(i){const n={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...l(),...i.components};return e.jsxs(e.Fragment,{children:[e.jsx(c,{title:"Utility/Display"}),`
 `,e.jsx(n.h1,{id:"display",children:"Display"}),`
 `,e.jsxs(n.ul,{children:[`
 `,e.jsxs(n.li,{children:[e.jsx(n.code,{children:".u-dsp-*"}),"：",e.jsx(n.code,{children:"display"}),"プロパティを指定 (",e.jsx(n.code,{children:"blc: block"})," ",e.jsx(n.code,{children:"ibc: inline-block"})," ",e.jsx(n.code,{children:"flx: flex"})," ",e.jsx(n.code,{children:"ifx inline-flex"})," ",e.jsx(n.code,{children:"tbl: table"}),")"]}),`

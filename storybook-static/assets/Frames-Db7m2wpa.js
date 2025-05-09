@@ -1,4 +1,4 @@
-import{j as e,M as n}from"./index-B3sQ_Kn-.js";import{useMDXComponents as c}from"./index-MpO5Vujw.js";import"./iframe-C9lhEjjy.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function s(d){const r={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...c(),...d.components};return e.jsxs(e.Fragment,{children:[e.jsx(n,{title:"Utility/Frames"}),`
+import{j as e,M as n}from"./index-CirxEQYK.js";import{useMDXComponents as c}from"./index-BhWSBugV.js";import"./iframe-BtP4CijC.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function s(d){const r={code:"code",h1:"h1",li:"li",p:"p",ul:"ul",...c(),...d.components};return e.jsxs(e.Fragment,{children:[e.jsx(n,{title:"Utility/Frames"}),`
 `,e.jsx(r.h1,{id:"frames",children:"Frames"}),`
 `,e.jsxs(r.p,{children:["詳細は",e.jsx(r.code,{children:"/src/styles/utils/_frames.scss"}),"をご確認ください。"]}),`
 `,e.jsx(r.h1,{id:"aspectratio",children:"AspectRatio"}),`

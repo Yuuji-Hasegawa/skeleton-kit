@@ -25,11 +25,11 @@ export const createBio = () => {
             <source
               type="image/avif"
               srcset="
-                /public/img/thumb-320.avif   320w,
-                /public/img/thumb-640.avif   640w,
-                /public/img/thumb-960.avif   960w,
-                /public/img/thumb-1920.avif 1920w,
-                /public/img/thumb.avif      1921w
+                ./img/thumb-320.avif   320w,
+                ./img/thumb-640.avif   640w,
+                ./img/thumb-960.avif   960w,
+                ./img/thumb-1920.avif 1920w,
+                ./img/thumb.avif      1921w
               "
               sizes="
 										(max-width: 320px) 320px,
@@ -41,11 +41,11 @@ export const createBio = () => {
             <source
               type="image/webp"
               srcset="
-                /public/img/thumb-320.webp   320w,
-                /public/img/thumb-640.webp   640w,
-                /public/img/thumb-960.webp   960w,
-                /public/img/thumb-1920.webp 1920w,
-                /public/img/thumb.webp      1921w
+                ./img/thumb-320.webp   320w,
+                ./img/thumb-640.webp   640w,
+                ./img/thumb-960.webp   960w,
+                ./img/thumb-1920.webp 1920w,
+                ./img/thumb.webp      1921w
               "
               sizes="
 										(max-width: 320px) 320px,
@@ -55,13 +55,13 @@ export const createBio = () => {
 										100vw"
             />
             <img
-              src="/public/img/thumb.png"
+              src="./img/thumb.png"
               srcset="
-                /public/img/thumb-320.png   320w,
-                /public/img/thumb-640.png   640w,
-                /public/img/thumb-960.png   960w,
-                /public/img/thumb-1920.png 1920w,
-                /public/img/thumb.png      1921w
+                ./img/thumb-320.png   320w,
+                ./img/thumb-640.png   640w,
+                ./img/thumb-960.png   960w,
+                ./img/thumb-1920.png 1920w,
+                ./img/thumb.png      1921w
               "
               sizes="
 										(max-width: 320px) 320px,

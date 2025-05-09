@@ -1,20 +1,4 @@
-import '../../../styles/generic/_resets.scss'
-import '../../../styles/objects/_stack.scss'
-import '../../../styles/objects/_frame.scss'
-import '../../../styles/components/_holder.scss'
-import '../../../styles/components/_text-sizes.scss'
-import '../../../styles/components/_accessory.scss'
-import '../../../styles/utils/_spaces.scss'
-import '../../../styles/utils/_js.scss'
-import '../../../styles/utils/_text.scss'
-import '../../../styles/utils/_frames.scss'
-import { loadingAdjust } from '../../../scripts/loading-adjust.js';
-import { setIntSize } from '../../../scripts/set-int-size.js';
-
-export const createSpine = () => {
-	const Spine = document.createElement('div')
-	Spine.className = 'c-hld-spn'
-	Spine.innerHTML = `<picture class="o-frm u-asp-sq u-frm-r-r j-cnt-auto">
+/* empty css                *//* empty css               *//* empty css               *//* empty css                *//* empty css                    *//* empty css                   *//* empty css                */import{l as a,s as r}from"./set-int-size-DZc624IO.js";/* empty css              *//* empty css                */const o=()=>{const m=document.createElement("div");return m.className="c-hld-spn",m.innerHTML=`<picture class="o-frm u-asp-sq u-frm-r-r j-cnt-auto">
                 <source
                   type="image/avif"
                   srcset="
@@ -77,8 +61,4 @@ export const createSpine = () => {
                   class="c-prg-m u-fnt-wl u-txt-dim u-fnt-en"
                 >
 									20yy.mm.dd</time>
-              </span>`
-	loadingAdjust();
-	setIntSize();
-	return Spine
-}
+              </span>`,a(),r(),m},y={title:"Components/Holder/Spine",tags:["autodocs"],render:()=>o()},t={};var u,i,e,p,s;t.parameters={...t.parameters,docs:{...(u=t.parameters)==null?void 0:u.docs,source:{originalSource:"{}",...(e=(i=t.parameters)==null?void 0:i.docs)==null?void 0:e.source},description:{story:"執筆者や記事情報をまとめる背表紙 **Spine**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_holder.scss`をご確認ください。\n- `.c-hld-spn`:**Spine**コンポーネント",...(s=(p=t.parameters)==null?void 0:p.docs)==null?void 0:s.description}}};const F=["Examples"];export{t as Examples,F as __namedExportsOrder,y as default};

@@ -1,18 +1,4 @@
-import '../../styles/generic/_resets.scss'
-import '../../styles/objects/_cover.scss'
-import '../../styles/objects/_frame.scss'
-import '../../styles/components/_mask.scss'
-import '../../styles/components/_text-sizes.scss'
-import '../../styles/utils/_js.scss'
-import '../../styles/utils/_frames.scss'
-import '../../styles/utils/_spaces.scss'
-import { loadingAdjust } from '../../scripts/loading-adjust.js';
-import { setIntSize } from '../../scripts/set-int-size.js';
-
-export const createOverlay = () => {
-	const Overlay = document.createElement('div')
-	Overlay.className = 'c-msk'
-	Overlay.innerHTML = `
+/* empty css                *//* empty css               *//* empty css               *//* empty css              *//* empty css                    */import{l as a,s as p}from"./set-int-size-DZc624IO.js";/* empty css                *//* empty css                */const o=()=>{const t=document.createElement("div");return t.className="c-msk",t.innerHTML=`
 							<div class="c-msk__src">
                 <picture class="o-frm j-cnt-auto">
                   <source
@@ -78,8 +64,4 @@ export const createOverlay = () => {
                 >
                   Lorem ipsum
                 </span>
-              </div>`
-		loadingAdjust();
-		setIntSize();
-	return Overlay
-}
+              </div>`,a(),p(),t},v={title:"Components/Overlay",tags:["autodocs"],render:()=>o()},u={};var s,m,e,i,r;u.parameters={...u.parameters,docs:{...(s=u.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(e=(m=u.parameters)==null?void 0:m.docs)==null?void 0:e.source},description:{story:"上下の要素を重ね合わせる**Overlay**コンポーネント<br />\n詳細は、**Show code** または `src/styles/components/_mask.scss`をご確認ください。\n- `.c-msk`:**Overlay**コンポーネント\n- `.c-msk__src`:**Overlay**の背面（下地）になる子要素\n- `.c-msk__surf`:**Overlay**の前面（表面）になる子要素",...(r=(i=u.parameters)==null?void 0:i.docs)==null?void 0:r.description}}};const b=["Examples"];export{u as Examples,b as __namedExportsOrder,v as default};
