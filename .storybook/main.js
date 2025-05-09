@@ -1,5 +1,4 @@
 /** @type { import('@storybook/html-vite').StorybookConfig } */
-import { mergeConfig } from 'vite'
 
 const config = {
 	stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
@@ -12,17 +11,9 @@ const config = {
 		'@storybook/addon-interactions',
 		'@storybook/addon-themes',
 	],
-	core: {
-    builder: '@storybook/builder-vite', // 👈 The builder enabled here.
-  },
   framework: {
     name: '@storybook/html-vite',
     options: {},
-	},
-	async viteFinal(config) {
-    return mergeConfig(config, {
-      base: '/skeleton-kit/',
-    })
   },
 }
 export default config

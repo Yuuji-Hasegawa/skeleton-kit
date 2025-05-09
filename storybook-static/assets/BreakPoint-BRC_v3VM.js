@@ -1,4 +1,4 @@
-import{j as n,M as r}from"./index-Bc8UxcRs.js";import{useMDXComponents as i}from"./index-DWNozKYk.js";import"./iframe-CEUZJDkD.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function t(s){const e={code:"code",h1:"h1",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...i(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"Tokens/BreakPoint"}),`
+import{j as n,M as r}from"./index-B3sQ_Kn-.js";import{useMDXComponents as i}from"./index-MpO5Vujw.js";import"./iframe-C9lhEjjy.js";import"./index-BiL3ubqk.js";import"./index-DrFu-skq.js";function t(s){const e={code:"code",h1:"h1",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...i(),...s.components};return n.jsxs(n.Fragment,{children:[n.jsx(r,{title:"Tokens/BreakPoint"}),`
 `,n.jsx(e.h1,{id:"breakpoint",children:"BreakPoint"}),`
 `,n.jsxs(e.p,{children:[n.jsx(e.code,{children:"styles/settings/_sizes.scss"}),"で以下のように定義しています。"]}),`
 `,n.jsx(e.pre,{children:n.jsx(e.code,{className:"language-sass",children:`$breakxs: 481px; // Mobile
