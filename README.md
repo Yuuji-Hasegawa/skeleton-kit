@@ -63,20 +63,14 @@ bun run sb
 | `build`          | CSSのbuildとJavascriptのバンドルなど |
 | `sb`             | Storybookの起動（開発用）            |
 | `sb:build`       | Storybookのビルド（公開用）          |
-
-### Lint 関連
 | `lint`           | 各種Lintを一括実行                  |
 | `lint:eslint`    | ESLintによるコードチェック           |
 | `lint:prettier`  | Prettierによるコード整形チェック      |
 | `lint:style`     | StylelintによるScssチェック         |
-
-### Fix 関連
 | `fix`            | 各種自動修正を一括実行                |
 | `fix:eslint`     | ESLintによる修正                    |
 | `fix:prettier`   | Prettierによるコード整形             |
 | `fix:style`      | Stylelintによるスタイル修正          |
-
-### Clean 関連
 | `clean:eslint`   | ESLintのキャッシュや不要ファイルの削除  |
 | `clean:style`    | Stylelintのキャッシュ削除など         |
 | `clean:lint`     | Lint関連全体のクリア                 |
@@ -84,8 +78,6 @@ bun run sb
 | `clean:opt`      | 画像最適化のキャッシュ削除             |
 | `clean:gen`      | 画像生成のキャッシュ削除               |
 | `clean:resize`   | 画像リサイズのキャッシュ削除            |
-
-### Color / Image 関連
 | `color`          | カラー関連の処理を一括実行              |
 | `color:palette`  | カラーパレットの生成                   |
 | `color:altcolor` | 代替カラーの生成                      |
