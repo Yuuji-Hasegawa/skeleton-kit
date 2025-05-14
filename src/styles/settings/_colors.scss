@@ -185,6 +185,39 @@ $shadows: (
   ),
 ) !default;
 
+$shadows-noSpread: (
+  none: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 0px 0px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 0px 0px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 0px 0px,
+  ),
+  layer: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 2px 2px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 1px 1px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 1px 3px,
+  ),
+  elevate: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 3px 6px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 3px 4px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 1px 8px,
+  ),
+  float: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 3px 6px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 6px 10px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 1px 18px,
+  ),
+  moved: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 5px 9px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 8px 9px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 3px 11px,
+  ),
+  emphasis: (
+    rgba(map.get($sys-light, shadow), 0.2) 0px 7px 14px,
+    rgba(map.get($sys-light, shadow), 0.14) 0px 12px 14px,
+    rgba(map.get($sys-light, shadow), 0.12) 0px 5px 16px,
+  ),
+) !default;
+
 $semantic-light: (
   txt: map.get($sys-light, onSurface),
   txt-desc: map.get($sys-light, onSurfaceVar),

@@ -78,6 +78,8 @@
       content: attr(data-placeholder);
       border-radius: map.get(setting.$borderRadius, s);
       transition: all 0.3s ease-in-out 0s;
+			min-width: max-content;
+			pointer-events: none;
 
       .c-frm-grp:focus-within &,
       .c-frm-grp:has(.c-frm-txt:not(:placeholder-shown)) & {
